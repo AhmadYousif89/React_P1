@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient gradientUnits="objectBoundingBox" cx="50.000008%" cy="0%" fx="50.000008%" fy="0%" r="67.23524%" gradientTransform="translate(0.50000006,0),scale(0.92977035,1),rotate(90.000084),scale(1,1.2385472),translate(-0.50000006,-0)" id="gradient_1">
+      <stop offset="0%" stop-color="#F1B8B8" />
+      <stop offset="100%" stop-color="#EC0000" />
+    </radialGradient>
+    <path d="M0 0L99.997 0L99.997 99.997L0 99.997L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <path d="M0 0L99.997 0L99.997 99.997L0 99.997L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+  <g clip-path="url(#mask_1)">
+    <path d="M99.8317 31.2355C98.372 15.1697 87.0005 3.51357 72.7693 3.51357C63.2883 3.51357 54.6073 8.61563 49.7226 16.7928C44.882 8.50986 36.5568 3.51164 27.2277 3.51164C12.9985 3.51164 1.62506 15.1677 0.167358 31.2336C0.0519409 31.9432 -0.421143 35.6779 1.0174 41.7685C3.09052 50.5533 7.87909 58.5439 14.862 64.871L49.6995 96.4854L85.1351 64.873C92.118 58.5439 96.9066 50.5553 98.9797 41.7685C100.418 35.6798 99.9451 31.9451 99.8317 31.2355L99.8317 31.2355Z" id="Shape" fill="url(#gradient_1)" stroke="none" />
+  </g>
+</svg>

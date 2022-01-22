@@ -1,0 +1,8 @@
+.err {
+  background: #2b69a9;
+  padding: 0.5em 1em;
+  color: #eee;
+  width: fit-content;
+  border-radius: 50px;
+  font-weight: bold;
+}

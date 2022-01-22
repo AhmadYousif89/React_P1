@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
 
-function App() {
+import { FavoriteContextProvider } from "./contexts/FavoriteContext";
+import MainLayout from "./components/layouts/MainLayout";
+import AllLocations from "./pages/AllLocations";
+import NewLocation from "./pages/NewLocation";
+import Favorites from "./pages/Favorites";
+import styles from "./App.module.css";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <FavoriteContextProvider>
+      <MainLayout>
+        <div className={styles.container}>
+          <Routes>
+            <Route path="/" element={<AllLocations />} />
+            <Route path="new-location" element={<NewLocation />} />
+            <Route path="favorites" element={<Favorites />} />
+          </Routes>
+        </div>
+      </MainLayout>
+    </FavoriteContextProvider>
   );
-}
+};
 
 export default App;
